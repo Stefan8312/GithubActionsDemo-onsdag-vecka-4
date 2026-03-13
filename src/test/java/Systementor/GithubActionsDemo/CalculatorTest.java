@@ -43,7 +43,7 @@ class CalculatorTest {
 
     @Test
     void subtractShouldReturnNegative1() {
-        int result = calculator.subtract(a,b + 1);
+        int result = calculator.subtract(a,b);
         assertEquals(-1,result);
     }
 
